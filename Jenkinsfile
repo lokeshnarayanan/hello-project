@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'harisharan634/hello'
-        PATH = "C:\\Users\\harih\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin;${env.PATH}"
+        IMAGE_NAME = 'lokesh251124/hello'
+        PATH = "C:/Users/Administrator/AppData/Local/Programs/DockerDesktop/resources/bin;${env.PATH}"
     }
 
     stages {
